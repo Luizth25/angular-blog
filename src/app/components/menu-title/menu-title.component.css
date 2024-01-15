@@ -5,8 +5,15 @@
 .container-menu-title>h1 {
   display: flex;
   justify-content: center;
-  margin: 16px 0;
+  padding: 16px 0;
   font-size: 135px;
+
+
+  @media (max-width: 520px) {
+    font-size: 80px;
+  }
+
+
 }
 
 .container-menu-title>hr {

@@ -11,7 +11,7 @@
   <div class="big-card-description">
     <p>
       <a [routerLink]="['content', id]">
-        {{ cardDescription }}
+        {{ cardDescription | slice : 0 : 83 }}...
       </a>
     </p>
   </div>
