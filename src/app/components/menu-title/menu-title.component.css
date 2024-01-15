@@ -1,0 +1,21 @@
+.container-menu-title {
+  color: #ffffff;
+}
+
+.container-menu-title>h1 {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+  font-size: 135px;
+
+
+  @media (max-width: 520px) {
+    font-size: 80px;
+  }
+
+
+}
+
+.container-menu-title>hr {
+  margin: 20px 0 4px 0;
+}
